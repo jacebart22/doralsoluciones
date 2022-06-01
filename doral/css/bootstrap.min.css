@@ -8153,3 +8153,7 @@ button.close {
      height: 100%;
      object-fit: cover;
  }
+
+ .navbar-header>a {
+    display: block;
+    }
