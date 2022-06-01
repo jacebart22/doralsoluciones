@@ -235,6 +235,8 @@ header .social-icon li a {
 
 #home h1 span {
 	color: #28a7e9;
+	color: rgb(2, 158, 219);
+	
 	font-weight: bold;
 }
 
@@ -259,7 +261,11 @@ header .social-icon li a {
 
 .element {
 	height: 60px;
-	font-size: 16px;
+	font-size: 26px;
+	color: rgb(0, 159, 225);
+	text-shadow:  0 0 0.2em rgb(0, 159, 225), 0 0 0.2em rgb(16, 17, 17),
+	0 0 0.2em rgb(241, 248, 248);
+
 }
 
 /* end home */
@@ -622,4 +628,4 @@ header .social-icon li a {
 }
 
 /* end 360 media quires */
-
+ 

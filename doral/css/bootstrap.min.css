@@ -8101,5 +8101,55 @@ button.close {
 
 .img-logo {
     max-width: 100%;
-    height: 85px;
+    height: 100%;
 }
+
+
+ .row-galeria{
+    display: flex; 
+    padding: 10px;
+    flex-wrap: wrap;
+
+ }
+
+ .colum-galeria{
+   flex: 25%;  
+   padding: 10px;
+ }
+
+ .colum-galeria img{
+     margin-top: 10px;
+     width: 100%;
+ }
+
+@media (max-width: 600px){
+    .colum-galeria{
+        flex: 100%;  
+     
+      }
+}
+
+
+ /*++ incio de galeria 2 */
+
+ .galery{
+     width: 90%;
+     margin: 0 auto;
+     overflow: hidden;
+     padding: 60px 0;
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+ }
+
+ .galery__picture{
+     min-width: 200px;
+     flex: 350px;
+     height: 300px;
+ }
+
+ .galery__img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
